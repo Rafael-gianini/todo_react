@@ -15,7 +15,7 @@ const TodoListItem = (props: TodoListItemProps) => {
         console.log(todo);
     }
 
-    const handleChange = (event: any) => { 
+    const handleChange = (event: any) => {    
         toggle(props.todo);
         console.log('Mudou');
     }

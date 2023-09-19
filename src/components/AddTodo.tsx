@@ -13,7 +13,7 @@ interface AddTodoForm {
     title: string
 }
 
-const AddTodo = () => {
+const AddTodo = () => { 
 
     const { addTodo } = useContext<TodoContextType>(TodoContext);
     const { register, handleSubmit, formState: { errors } }= useForm({
